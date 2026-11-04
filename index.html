@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lorena Artist | Maquillaje, Peluquería, Posticería & Formaciones</title>
+
+  <!-- Favicon en la raíz -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- SEO y vista previa al compartir (WhatsApp, Instagram, Telegram...) -->
+  <meta name="description" content="Lorena Artist: maquillaje profesional, peluquería, posticería y formaciones en Barcelona.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lorena Artist | Maquillaje, Peluquería, Posticería &amp; Formaciones">
+  <meta property="og:description" content="Maquillaje Drag &amp; Full Glam, peluquería, pelucas, press-on nails y cursos en Barcelona.">
+  <meta property="og:image" content="https://TUDOMINIO.com/img/logo.jpg">
+  <meta property="og:image:width" content="538">
+  <meta property="og:image:height" content="300">
+  <meta property="og:url" content="https://TUDOMINIO.com/">
+  <meta property="og:locale" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://TUDOMINIO.com/img/logo.jpg">
+
+  <!-- Tipografías de Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Syne:wght@700;800&family=Great+Vibes&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome para los iconos de redes sociales -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Motor CDN de Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Enlace al archivo CSS en la carpeta css/ -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Enlace al archivo JS en la carpeta js/ -->
+  <script src="js/script.js"></script>
+</head>
+<body class="bg-leo text-neutral-100 font-sans min-h-screen selection:bg-neonPink selection:text-white overflow-x-hidden">
+
+<header class="fixed top-0 inset-x-0 z-50 bg-[#070509]/90 backdrop-blur-md border-b border-neonPink/30">
+ <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+  <a href="#" class="group flex flex-col">
+   <span class="font-display font-extrabold text-2xl tracking-tighter flex items-center gap-1.5"><span class="logo-lorena text-[1.9rem] sm:text-4xl">LORENA</span><span class="logo-artist text-3xl sm:text-4xl -ml-3 mt-3 -rotate-6 group-hover:rotate-0 transition-transform">artist</span></span>
+   <span class="text-[9px] tracking-[.3em] font-semibold text-pink-300 uppercase">Barcelona <span class="text-neonPink">✦</span> Makeup & Hair</span>
+  </a>
+  <nav class="hidden md:flex items-center gap-7 text-xs font-bold uppercase tracking-wider text-pink-100">
+   <a href="#servicios" class="hover:text-neonPink">Servicios</a><a href="#tarifas" class="hover:text-lav">Tarifas</a>
+   <a href="#formaciones" class="hover:text-neonPink flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-neonPink animate-ping"></span>Cursos</a>
+   <a href="#galeria" class="hover:text-lav">Galería</a><a href="#ubicacion" class="hover:text-neonPink">Contacto</a>
+  </nav>
+  <div class="flex items-center gap-3">
+   <a href="https://wa.me/34663536884?text=Hola%20Lorena,%20me%20gustar%C3%ADa%20consultar%20disponibilidad%20para%20un%20servicio%20o%20curso!" target="_blank" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-hot via-pink-600 to-purple-600 text-white font-extrabold text-xs uppercase tracking-wider shadow-pink hover:shadow-strong transition hover:-translate-y-0.5">✨ Pedir Cita</a>
+   <button id="mb" class="md:hidden text-xl px-3 py-1.5 rounded-lg border border-neonPink/40 bg-cardDark" aria-label="Abrir menú">☰</button>
+  </div>
+ </div>
+ <div id="mm" class="hidden md:hidden bg-[#0c0812] border-b border-neonPink/30 px-6 py-5 space-y-4 text-sm font-bold uppercase tracking-wider text-pink-100">
+  <a href="#servicios" class="block">Servicios</a><a href="#tarifas" class="block">Tarifas completas</a><a href="#formaciones" class="block text-neonPink">Cursos & Formaciones</a><a href="#galeria" class="block">Portfolio</a><a href="#ubicacion" class="block">Ubicación y Estudio</a>
+  <a href="https://wa.me/34663536884" target="_blank" class="block py-3 rounded-full bg-gradient-to-r from-hot to-purple-600 text-white text-center shadow-pink">Escríbeme por WhatsApp</a>
+ </div>
+</header>
+
+<main class="pt-20">
+<!-- HERO -->
+<section class="relative px-4 sm:px-6 py-14 md:py-20 max-w-7xl mx-auto overflow-hidden">
+ <div class="sparkle-star top-10 left-6 text-neonPink text-3xl animate-sparkle">✦</div>
+ <div class="sparkle-star top-40 right-10 text-lav text-4xl animate-sparkle" style="animation-delay:.7s">✦</div>
+ <div class="sparkle-star bottom-16 left-1/3 text-white text-2xl animate-sparkle" style="animation-delay:1.2s">✨</div>
+ <div class="grid lg:grid-cols-12 gap-10 items-center">
+  <div class="lg:col-span-7 text-center lg:text-left relative z-10">
+   <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-950/80 border border-pink-500/60 text-lav text-xs font-black uppercase tracking-widest mb-5 shadow-pink">✨ Especialista en Maquillaje Drag & Full Glam</div>
+   <h2 class="font-glam text-2xl sm:text-3xl text-pink-300 tracking-wider"><span class="text-neonPink">✦</span> Transformación <span class="text-neonPink">✦</span></h2>
+   <h1 class="relative inline-block mt-2 mb-8"><span class="logo-lorena text-7xl sm:text-9xl block -rotate-1">LORENA</span><span class="logo-artist absolute right-0 sm:-right-4 -bottom-7 sm:-bottom-10 text-5xl sm:text-7xl -rotate-6">artist</span></h1>
+   <p class="text-pink-100/90 text-sm sm:text-lg max-w-xl mx-auto lg:mx-0 mt-8 leading-relaxed">Maquillaje profesional para eventos y novias, peluquería creativa, confección de pelucas, uñas press-on hechas a medida y masterclasses exclusivas.</p>
+   <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+    <a href="#formaciones" class="px-8 py-4 rounded-full bg-gradient-to-r from-hot to-purple-600 text-white font-black text-sm uppercase tracking-wider shadow-pink hover:scale-105 transition text-center">🔥 Descubrir Formaciones</a>
+    <a href="#tarifas" class="px-8 py-4 rounded-full border-2 border-pink-400/50 hover:bg-pink-900/40 text-pink-100 font-bold text-sm uppercase tracking-wider transition text-center">👁 Ver Listado de Precios</a>
+   </div>
+   <div id="stats" class="mt-12 pt-8 border-t border-pink-900/50 grid grid-cols-2 sm:grid-cols-4 gap-4 text-center"></div>
+  </div>
+  <div class="lg:col-span-5 flex justify-center">
+   <div class="w-64 sm:w-72 bg-gradient-to-b from-[#180a1e] to-black p-3.5 rounded-lg polaroid -rotate-3 hover:rotate-0 hover:scale-105 transition duration-300 shadow-polaroid">
+    <div class="overflow-hidden rounded border border-pink-900/60 aspect-[4/5]"><img src="img/lorena.jpg" alt="Lorena Artist" class="w-full h-full object-cover contrast-125 saturate-150"></div>
+    <div class="pt-3 flex justify-between items-center"><span class="font-script text-xl text-pink-300">Lorena Artist</span><span class="text-[11px] text-pink-400 font-mono font-bold"><a href="https://instagram.com/lorena.artist_" target="_blank" rel="noopener noreferrer" class="hover:text-neonPink transition" aria-label="Instagram">@lorena.artist_</a></span></div>
+  </a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-20 bg-[#0c0812]/90 border-y border-neonPink/30">
+ <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="text-center mb-14"><span class="text-xs uppercase font-extrabold tracking-widest text-neonPink">Especialidades</span><h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase mt-2">Todo lo que necesitas para tu look</h2></div>
+  <div id="serv" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+ </div>
+</section>
+
+<!-- TARIFAS -->
+<section id="tarifas" class="py-24">
+ <div class="max-w-4xl mx-auto px-4 sm:px-6">
+  <div class="text-center mb-10"><span class="text-xs uppercase font-extrabold tracking-widest text-neonPink">Transparencia y Calidad</span><h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase mt-2">Listado de <span class="font-script normal-case text-lav text-5xl sm:text-6xl font-normal">Precios</span></h2><p class="text-sm text-pink-200/80 mt-3">Explora los precios oficiales de cada categoría. Puedes reservar tu cita o consultar por un pack combinado.</p></div>
+  <div id="tabs" class="flex flex-wrap justify-center gap-2 mb-8"></div>
+  <div class="card p-6 sm:p-10 shadow-polaroid border-neonPink/40">
+   <div id="tabc"></div>
+   <div class="mt-8 pt-6 border-t border-pink-900/50 text-center"><p class="text-xs text-neutral-400 mb-3">¿Tienes dudas con algún servicio especial o necesitas presupuesto personalizado para varios servicios?</p><a href="https://wa.me/34663536884?text=Hola%20Lorena,%20quer%C3%ADa%20consultar%20un%20presupuesto%20para..." target="_blank" class="text-neonPink hover:text-white font-bold text-sm">Consultar por WhatsApp directo →</a></div>
+  </div>
+ </div>
+</section>
+
+<!-- FORMACIONES -->
+<section id="formaciones" class="py-24 bg-[#0c0812]/90 border-y border-neonPink/30">
+ <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="text-center max-w-3xl mx-auto mb-12"><span class="text-xs uppercase font-extrabold tracking-widest text-neonPink">✨ Formaciones Profesionales</span><h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase mt-2">Aprende con <span class="text-transparent bg-clip-text bg-gradient-to-r from-hot to-lav">Lorena Artist</span></h2><p class="text-pink-200/80 mt-3">Cursos prácticos intensivos pensados para que perfecciones tu técnica desde cero o lleves tu creatividad al máximo nivel.</p></div>
+  <div id="vent" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-14"></div>
+  <div id="cursos" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+ </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria" class="py-24 overflow-hidden">
+ <div class="max-w-7xl mx-auto px-4 sm:px-6">
+  <div class="md:flex items-end justify-between mb-14"><div><span class="text-xs uppercase font-extrabold tracking-widest text-neonPink">Visual Experience</span><h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase mt-2">Galería de Trabajos</h2></div><p class="text-sm text-pink-200/80 max-w-md mt-4 md:mt-0">Muestra de maquillajes artísticos, peinados, personalización de pelucas drag y sets de uñas press-on.</p></div>
+  <div id="gal" class="grid grid-cols-2 md:grid-cols-4 gap-5 sm:gap-8"></div>
+ </div>
+</section>
+
+<!-- UBICACIÓN -->
+<section id="ubicacion" class="py-24 bg-[#0c0812]/90 border-t border-neonPink/30">
+ <div class="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
+  <div>
+   <span class="text-xs uppercase font-extrabold tracking-widest text-neonPink">Encuéntranos</span>
+   <h2 class="font-display text-3xl sm:text-5xl font-black text-white uppercase mt-2 mb-6">Estudio en Barcelona</h2>
+   <p class="text-pink-100/90 leading-relaxed mb-8">Ubicación céntrica y de fácil acceso para citas de maquillaje, pruebas de novia, colocación de pelucas y sesiones de formación individuales o en grupo.</p>
+   <div id="info" class="space-y-5 mb-8"></div>
+   <a href="https://wa.me/34663536884?text=Hola%20Lorena,%20quiero%20reservar%20cita%20en%20tu%20estudio" target="_blank" class="inline-block px-8 py-4 rounded-full bg-gradient-to-r from-hot to-purple-600 text-white font-extrabold text-sm uppercase tracking-wider shadow-pink hover:scale-105 transition">📅 Agendar Cita en Estudio</a>
+  </div>
+  <div class="relative p-8 rounded-3xl bg-gradient-to-tr from-[#180a1e] to-black border-2 border-neonPink/60 shadow-strong overflow-hidden">
+   <div class="absolute -top-12 -right-12 w-44 h-44 bg-neonPink/25 rounded-full blur-2xl"></div>
+   <div class="relative">
+    <div class="flex justify-between items-center mb-8"><img src="img/logo.jpg" alt="Lorena Artist" class="h-16 w-auto" style="mix-blend-mode:screen" loading="lazy"><span class="text-xs px-3 py-1 rounded-full bg-pink-600 font-black uppercase">Barcelona</span></div>
+    <div class="bg-black/50 rounded-2xl p-6 border border-pink-900/60"><p class="text-xs uppercase font-extrabold text-neonPink tracking-wider mb-1">Localización</p><h4 class="font-display font-bold text-xl text-white mb-2">C/ Consell de Cent con Casanova</h4><p class="text-xs text-pink-200/80 leading-relaxed">Excelente conexión en transporte público con metro Hospital Clínic (L5) o Urgell / Universitat (L1).</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer class="py-10 bg-[#050407] border-t border-neonPink/30 text-xs text-neutral-500">
+ <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-center">
+  <img src="img/logo.jpg" alt="Lorena Artist" class="h-20 w-auto" style="mix-blend-mode:screen" loading="lazy">
+  <div>Maquillaje Profesional · Peluquería · Pelucas · Press-On Nails · Masterclasses<br>© Todos los derechos reservados</div>
+  <div class="flex items-center gap-5 text-lg text-pink-300">
+  <a href="https://instagram.com/lorena.artist_" target="_blank" rel="noopener noreferrer" class="hover:text-neonPink transition" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a href="https://tiktok.com/@lorena.artist_" target="_blank" rel="noopener noreferrer" class="hover:text-neonPink transition" aria-label="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+  <a href="https://wa.me/34663536884" target="_blank" rel="noopener noreferrer" class="hover:text-neonPink transition" aria-label="WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
+ </div>
+</footer>
+
+<a href="https://wa.me/34663536884?text=Hola%20Lorena,%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20servicios%20y%20cursos!" target="_blank" aria-label="WhatsApp" class="group fixed bottom-6 right-6 z-40 p-4 rounded-full bg-gradient-to-r from-hot to-purple-600 text-white shadow-strong hover:scale-110 transition flex items-center text-xl">💬<span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs group-hover:pl-2 transition-all duration-300 text-xs font-black uppercase tracking-wider">Escríbeme</span></a>
+
+<!-- MODAL -->
+<div id="modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/85 backdrop-blur-md">
+ <div class="bg-cardDark border-2 border-neonPink/70 rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-strong max-h-[90vh] overflow-y-auto">
+  <button onclick="closeM()" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-pink-950 text-pink-200 hover:text-white" aria-label="Cerrar">✕</button>
+  <span class="text-xs font-black uppercase tracking-wider text-lav bg-pink-950 px-3 py-1 rounded-full inline-block mb-3">Formación Especializada</span>
+  <div class="flex items-center justify-between gap-3 mb-3"><h3 id="mt" class="font-display font-black text-2xl text-white uppercase"></h3><span id="mp" class="font-display font-black text-2xl text-neonPink"></span></div>
+  <p id="md" class="text-sm text-pink-100/90 leading-relaxed mb-6"></p>
+  <h4 class="text-xs font-extrabold uppercase tracking-wider text-pink-300 mb-3">✦ Contenido incluido en la formación:</h4>
+  <ul id="ml" class="space-y-2 text-xs text-neutral-200 mb-6"></ul>
+  <div class="p-3 bg-black/40 rounded-xl border border-pink-900/50 text-xs text-pink-200/80 mb-6 space-y-1"><p>✨ <strong>Incluye:</strong> Clases individuales o en grupo, dossier informativo de apoyo y material.</p><p>💡 <em>Recomendable traer tus propias brochas para aprender a usarlas en casa.</em></p></div>
+  <div class="flex gap-3"><button onclick="closeM()" class="w-1/3 py-3 rounded-full border border-pink-400/50 text-pink-200 text-xs font-bold hover:bg-pink-900/40">Cerrar</button><a id="mw" target="_blank" class="w-2/3 py-3 rounded-full bg-gradient-to-r from-hot to-purple-600 text-white font-extrabold text-xs uppercase tracking-wider text-center shadow-pink hover:scale-105 transition">💬 Reservar este curso</a></div>
+ </div>
+</div>
+
+</body>
+</html>
