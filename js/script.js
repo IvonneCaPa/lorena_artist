@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ["🙋", "Individual o Grupal"],
     ["⏰", "3 a 4 Horas mín."],
     ["📅", "Horario Flexible"],
-    ["📦", "Material Incluido"],
+    ["🎨", "Práctica Real"],
     ["📖", "Dossier Teórico"],
     ["💗", "Soporte Continuo"]
   ].map(([i, t]) => `
