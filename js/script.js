@@ -46,8 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
   $('stats').innerHTML = [
     ["+5", "Cursos especializados"],
     ["1 a 1", "O clases grupales"],
-    ["100%", "Material incluido"],
-    ["BCN", "C/ Consell de Cent"]
+    ["100%", "Material profesional"],
+    ["BCN","Servicio a domicilio"]
   ].map(([n, t]) => `
     <div>
       <span class="font-display font-bold text-2xl text-pink-300">${n}</span>
@@ -74,9 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const T = {
     maquillaje: ["✦ Servicios de Maquillaje", [
       ["Maquillaje Social", "Piel perfecta y estilismo acorde a eventos sociales de día o de noche.", "50 €"],
-      ["Maquillaje de Eventos", "Mayor duración, técnica glam y fijación intensiva para fiestas.", "60 €"],
-      ["Creativos / Gráficos", "Delineados potentes, combinaciones de color y diseños fantasía.", "70 - 80 €"],
-      ["Shootings & Sesiones", "Adaptado a iluminación de estudio y cámaras profesionales.", "desde 50 €"]
+      ["Maquillaje de Eventos", "Mayor duración, técnica glam y fijación intensiva para fiestas.", "65 €"],
+      ["Creativos / Gráficos", "Delineados potentes, combinaciones de color y diseños fantasía.", "80 €"],
+      ["Shootings & Sesiones", "Adaptado a iluminación de estudio y cámaras profesionales.", "desde 50 €"],
+      ["Maquillaje Drag", "Transformación sin límites, rasgos marcados, fantasía y acabados escénicos de alto impacto.", "90 - 100 €"]
     ], ["Pack Novias Especial", "Atención personalizada, diseño del look y prueba previa completa.", "200 €", "Incluye Prueba"]],
     peluqueria: ["✂️ Peluquería & Peinados", [
       ["Peinado de Evento", "Ondas, semirecogidos o recogidos para ocasiones especiales.", "desde 35 €"],
@@ -98,10 +99,6 @@ document.addEventListener('DOMContentLoaded', () => {
       ["Cabeza de Pórex", "", "7 €"]
     ]],
     unas: ["💎 Nails Press-On & Tratamientos", [
-      ["Acrílicas Simples", "", "20 €"],
-      ["Acrílicas Francesas", "", "desde 25 €"],
-      ["Acrílicas Diseño Fantasía", "", "desde 15 €"],
-      ["Acrílicas Diseño Pedrería", "", "desde 20 €"],
       ["Esmaltado Semipermanente", "", "25 €"],
       ["Set Press-On Completo", "", "desde 30 €"],
       ["Limpieza de Uñas Press-on", "", "15 €"]
@@ -231,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ].map(([u, c, t, r], i) => `
     <div class="bg-gradient-to-b from-[#180a1e] to-black p-2.5 sm:p-3 rounded-lg polaroid ${r} hover:rotate-0 hover:scale-105 transition duration-300 shadow-polaroid ${i % 2 ? 'md:mt-8' : ''}">
       <div class="overflow-hidden rounded border border-pink-900/60 aspect-[3/4]">
-        <img src="img/${u}" alt="${t}" loading="lazy" class="w-full h-full object-cover contrast-125 saturate-150">
+        <img src="img/${u}" alt="${t}" loading="lazy" class="w-full h-full object-cover">
       </div>
       <div class="pt-2.5">
         <span class="text-[10px] font-bold text-neonPink uppercase tracking-wider">${c}</span>
